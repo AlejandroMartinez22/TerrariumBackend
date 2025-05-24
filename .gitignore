@@ -3,5 +3,19 @@
 # Esto ayuda a proteger información privada y mantener la seguridad del proyecto.
 # No bastará con clonar el repositorio para que el proyecto funcione, será necesario incluir denuevo estos archivos
 
+# Credenciales de Firebase
+firebase-adminsdk.json
+
 # Node modules
 node_modules/
+
+# Variables de entorno
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Directorios de dependencias
+.npm
